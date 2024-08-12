@@ -1,0 +1,29 @@
+@import "../../enums/colors.scss";
+
+.header {
+  // background-color: $azul-escuro;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  gap: 60px;
+  margin-top: 10px;
+
+  .element {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    .link {
+      color: $azul-claro;
+      text-decoration: none;
+      font-size: 1.3em;
+
+      &:hover {
+        color: $vermelho; // Altere para a cor desejada ao passar o mouse
+      }
+    }
+  }
+}
